@@ -65,18 +65,31 @@ git push origin v1.5.11
 
 ## 📥 安装插件
 
-### 方法 1：下载 Release 文件（推荐）
+### 方法 1：下载离线安装包（推荐）
 
-1. 从 Releases 页面下载最新版本的 `.zip` 文件（如果有）或直接下载三个文件
-2. 在 Obsidian Vault 中创建目录：`.obsidian/plugins/calendar/`
-3. 将以下三个文件放入该目录：
+1. 从 Releases 页面下载 `calendar-offline-release.zip`
+2. 解压 zip 文件，会得到一个 `calendar` 文件夹
+3. 将 `calendar` 文件夹复制到你的 Obsidian Vault 中的 `.obsidian/plugins/` 目录
+   - 完整路径应该是：`YourVault/.obsidian/plugins/calendar/`
+   - 确保文件夹内包含三个文件：`main.js`, `manifest.json`, `styles.css`
+4. 在 Obsidian 中：
+   - 打开 **设置** → **社区插件**
+   - 如果看到安全模式提示，点击 **关闭安全模式**
+   - 刷新插件列表，找到 **Calendar** 插件
+   - 点击 **启用**
+5. 重启 Obsidian（可选，但推荐）
+
+### 方法 2：下载单独的文件
+
+1. 从 Releases 页面下载以下三个文件：
    - `main.js`
    - `manifest.json`
    - `styles.css`
-4. 在 Obsidian 中重新加载插件或重启 Obsidian
-5. 在社区插件中启用 Calendar 插件
+2. 在 Obsidian Vault 中创建目录：`.obsidian/plugins/calendar/`
+3. 将这三个文件放入该目录
+4. 在 Obsidian 中启用 Calendar 插件
 
-### 方法 2：Git Clone
+### 方法 3：Git Clone
 
 ```bash
 cd /path/to/your/vault/.obsidian/plugins/
