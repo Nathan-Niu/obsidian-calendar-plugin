@@ -4,6 +4,17 @@ This plugin for [Obsidian](https://obsidian.md/) creates a simple Calendar view 
 
 ![screenshot-full](https://raw.githubusercontent.com/liamcain/obsidian-calendar-plugin/master/images/screenshot-full.png)
 
+## Forked Note
+
+这是一个对僵尸项目的fork，意在添加一些我个人需要的功能然后自用，并且也会公开供其他人获取和使用。
+
+原开发者的Paypal地址已经不存在，buymeacoffee地址虽然还存在，但也很久没有更新，作者也没回邮件，不管实际情况如何，但是大概无法从原作者处获得帮助了。
+
+- [X] 这个项目为Obsidian笔记软件提供了日历功能，其中一个feature是能够在日历界面显示当天笔记的字数，但是该功能仅能够统计笔记中英文单词词数，当笔记以中文书写时，不能统计中文字数，现增加统计中文字数的功能。
+- [X] 在设置界面中，设置项能够改为中文显示，并且添加了中文的 words per dot 字段。在字数统计功能中亦应用该系数，以实现更灵活的字数统计。
+  - 在中文的"字数每圆点数"下方的描述将是："中文信息熵约为英语的2.1倍，但您也可以自定义希望的数值"
+- [X] 为设置界面添加多语言支持（英语/中文），改进了"Override locale"的描述使其更清晰
+
 ## Usage
 
 After enabling the plugin in the settings menu, you should see the calendar view appear in the right sidebar.
@@ -66,7 +77,7 @@ If you use "Inspect Element" on the calendar, you will notice that the CSS class
 
 ## Compatibility
 
-`obsidian-calendar-plugin` currently requires Obsidian v0.9.11 or above to work properly.
+`obsidian-calendar-plugin` currently requires Obsidian v1.0.0 or above to work properly.
 
 ## Installation
 
