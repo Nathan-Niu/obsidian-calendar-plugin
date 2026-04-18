@@ -26,6 +26,12 @@ jobs:
           npm install
           npm run build
 
+      - name: Create release package
+        run: |
+          mkdir calendar
+          cp main.js manifest.json styles.css calendar/
+          zip -r calendar-offline-release.zip calendar/
+
       - name: Create release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -35,4 +41,4 @@ jobs:
           gh release create "$tag" \
             --title="$tag" \
             --draft \
-            main.js manifest.json styles.css
+            main.js manifest.json styles.css calendar-offline-release.zip
