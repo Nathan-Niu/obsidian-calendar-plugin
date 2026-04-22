@@ -1,19 +1,40 @@
-# obsidian-calendar-plugin
+# Calendar Chinese (日历插件中文版)
 
-This plugin for [Obsidian](https://obsidian.md/) creates a simple Calendar view for visualizing and navigating between your daily notes.
+> **基于 [obsidian-calendar-plugin](https://github.com/liamcain/obsidian-calendar-plugin) 的增强版本**
+>
+> 本插件是 Liam Cain 开发的 Calendar 插件的分支版本，添加了中文字数统计、多语言支持等功能。
+> 原始项目遵循 MIT 许可证，本分支同样遵循 MIT 许可证。
+
+This plugin for [Obsidian](https://obsidian.md/) creates a simple Calendar view for visualizing and navigating between your daily notes, with enhanced support for Chinese character counting and multilingual interface.
 
 ![screenshot-full](https://raw.githubusercontent.com/liamcain/obsidian-calendar-plugin/master/images/screenshot-full.png)
 
-## Forked Note
+## 🌟 新增功能 / New Features
 
-这是一个对僵尸项目的fork，意在添加一些我个人需要的功能然后自用，并且也会公开供其他人获取和使用。
-
-原开发者的Paypal地址已经不存在，buymeacoffee地址虽然还存在，但也很久没有更新，作者也没回邮件，不管实际情况如何，但是大概无法从原作者处获得帮助了。
+这是一个对原 Calendar 插件的增强分支，添加了以下功能：
 
 - [X] 这个项目为Obsidian笔记软件提供了日历功能，其中一个feature是能够在日历界面显示当天笔记的字数，但是该功能仅能够统计笔记中英文单词词数，当笔记以中文书写时，不能统计中文字数，现增加统计中文字数的功能。
 - [X] 在设置界面中，设置项能够改为中文显示，并且添加了中文的 words per dot 字段。在字数统计功能中亦应用该系数，以实现更灵活的字数统计。
   - 在中文的"字数每圆点数"下方的描述将是："中文信息熵约为英语的2.1倍，但您也可以自定义希望的数值"
 - [X] 为设置界面添加多语言支持（英语/中文），改进了"Override locale"的描述使其更清晰
+
+---
+
+## 📜 归属声明 / Attribution
+
+**原始项目**: [obsidian-calendar-plugin](https://github.com/liamcain/obsidian-calendar-plugin) by [Liam Cain](https://github.com/liamcain)
+
+**本分支**: Calendar Chinese by [Nathan Niu](https://github.com/Nathan-Niu)
+
+本插件基于 Liam Cain 开发的 obsidian-calendar-plugin，遵循 MIT 许可证。我们在原项目的基础上添加了：
+- 中文字数统计功能
+- 中日韩字符分别使用不同的系数
+- 设置界面多语言支持（英语/中文）
+- 自动化的 GitHub Actions 发布流程
+
+我们感谢原作者的出色工作！如果没有原项目，这个增强版本就不可能存在。
+
+---
 
 ## Usage
 

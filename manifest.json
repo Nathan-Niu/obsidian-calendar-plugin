@@ -1,10 +1,10 @@
 {
-  "id": "calendar",
-  "name": "Calendar",
-  "description": "Calendar view of your daily notes",
+  "id": "calendar-chinese",
+  "name": "Calendar Chinese",
+  "description": "Calendar view with enhanced Chinese character counting and multilingual support",
   "version": "1.5.11",
   "author": "Liam Cain & Nathan Niu",
-  "authorUrl": "https://github.com/liamcain & https://github.com/Nathan-Niu",
+  "authorUrl": "https://github.com/liamcain, https://github.com/Nathan-Niu",
   "fundingUrl": "https://www.buymeacoffee.com/liamcain",
   "isDesktopOnly": false,
   "minAppVersion": "1.0.0"
